@@ -32,56 +32,6 @@
                 <p class="mb-4">
                     {!! $batik->description !!}
                 </p>
-                <!-- List of Icons -->
-                <div class="mb-8">
-                    <h2 class="text-xl font-bold mb-4">
-                    Daftar Produk
-                    </h2>
-                    <ul class="space-y-4">
-                        <li class="flex items-center">
-                            <i class="fas fa-utensils text-yellow-800 text-2xl mr-2">
-                            </i>
-                            <span>
-                            Makanan: Nama Makanan
-                            </span>
-                        </li>
-                        <li class="flex items-center">
-                            <i class="fas fa-coffee text-yellow-800 text-2xl mr-2">
-                            </i>
-                            <span>
-                            Minuman: Nama Minuman
-                            </span>
-                        </li>
-                        <li class="flex items-center">
-                            <i class="fas fa-tshirt text-yellow-800 text-2xl mr-2">
-                            </i>
-                            <span>
-                            Busana: Nama Busana
-                            </span>
-                        </li>
-                        <li class="flex items-center">
-                            <i class="fas fa-tools text-yellow-800 text-2xl mr-2">
-                            </i>
-                            <span>
-                            Alat: Nama Alat
-                            </span>
-                        </li>
-                        <li class="flex items-center">
-                            <i class="fas fa-concierge-bell text-yellow-800 text-2xl mr-2">
-                            </i>
-                            <span>
-                            Jasa: Nama Jasa
-                            </span>
-                        </li>
-                        <li class="flex items-center">
-                            <i class="fas fa-couch text-yellow-800 text-2xl mr-2">
-                            </i>
-                            <span>
-                            Perabot: Nama Perabot
-                            </span>
-                        </li>
-                    </ul>
-                </div>
                 <!-- Social Media and Contact Info -->
                 <div class="mb-8">
                     <h2 class="text-xl font-bold mb-4">
@@ -118,7 +68,7 @@
                     <p>
                         <i class="fas fa-envelope">
                         </i>
-                        info@terserah.com
+                        info@produk.com
                     </p>
                 </div>
             </div>

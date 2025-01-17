@@ -31,6 +31,7 @@ class BatikResource extends Resource
                 Card::make()
                     ->schema([
                         TextInput::make('business_name')->required()->label('Nama Bisnis'),
+                        TextInput::make('area')->required()->label('Alamat'),
                         TextInput::make('address')->required()->label('Link Maps'),
                         RichEditor::make('description')->required()->label('Deskripsi'),
                         TextInput::make('phone_number')->label('Nomor Telepon'),

@@ -10,7 +10,7 @@ class BatikController extends Controller
 {
     public function index() {
         $batiks = Batik::all();
-
+        $areas = DB::table('umkms')->select('area')->distinct()->get();
         return view('batik.batik', ['batiks' => $batiks]);
     }
 
