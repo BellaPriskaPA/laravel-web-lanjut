@@ -158,39 +158,6 @@
                         @endforeach
                     @endif
                 </div> 
-                <!-- Pagination -->
-                <div class="flex justify-center mt-8">
-                    <ul class="flex space-x-2">
-                        <li>
-                            <a class="px-3 py-1 border border-gray-300 rounded-lg" href="#">
-                            Sebelumnya
-                            </a>
-                        </li>
-                        <li>
-                            <a class="px-3 py-1 border border-gray-300 rounded-lg" href="#">
-                            1
-                            </a>
-                        </li>
-                        <li>
-                            <a class="px-3 py-1 border border-gray-300 rounded-lg" href="#">
-                            2
-                            </a>
-                        </li>
-                        <li>
-                            <a class="px-3 py-1 border border-gray-300 rounded-lg" href="#">
-                            3
-                            </a>
-                        </li>
-                        <li>
-                            <a class="px-3 py-1 border border-gray-300 rounded-lg" href="#">
-                            Selanjutnya
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </main>
     <!-- Thanks Section -->
     <section class="bg-yellow-100 py-8">
         <div class="container mx-auto text-center">
