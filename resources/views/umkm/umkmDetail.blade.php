@@ -26,7 +26,7 @@
                 <p class="mb-4">
                 Kategori Produk:
                 <a class="text-yellow-900" href="#">
-                UMKM....
+                UMKM
                 </a>
                 </p>
                 <p class="mb-4">
