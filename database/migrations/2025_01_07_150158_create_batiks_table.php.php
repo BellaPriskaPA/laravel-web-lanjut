@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('business_name', 25);
             $table->text('address');
             $table->longText('description');
+            $table->string('phone_number', 13)->nullable();
             $table->text('instagram')->nullable();
             $table->text('facebook')->nullable();
             $table->text('twitter')->nullable();

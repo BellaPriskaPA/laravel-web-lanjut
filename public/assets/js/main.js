@@ -110,4 +110,21 @@ if (replyText) {
     alert('Balasan tidak boleh kosong.');
 }
 }
-   
+
+document.addEventListener('DOMContentLoaded', function () {
+    const selectElement = document.getElementById('kategori-wilayah');
+    const productItems = document.querySelectorAll('.product-item');
+
+    selectElement.addEventListener('change', function () {
+        const selectedValue = this.value.toLowerCase();
+
+        productItems.forEach(item => {
+            const areaText = item.querySelector('.text-yellow-500').textContent.toLowerCase();
+            if (selectedValue === "" || areaText.includes(selectedValue)) {
+                item.style.display = 'block';
+            } else {
+                item.style.display = 'none';
+            }
+        });
+    });
+});

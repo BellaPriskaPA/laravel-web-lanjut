@@ -109,7 +109,11 @@
                     <p>
                         <i class="fas fa-phone-alt">
                         </i>
-                        01234567891011
+                        @if(is_null($culinary->phone_number))
+                            Tidak ada nomor telepon
+                        @else
+                            $umkm->phone_number
+                        @endif
                     </p>
                     <p>
                         <i class="fas fa-envelope">

@@ -54,21 +54,82 @@
                     </div>
                     <h2 class="text-xl font-bold mb-4">
                     Kategori Wilayah
-                    </h2>
-                    <div class="relative">
-                        <label class="sr-only" for="kategori-wilayah">
-                            Kategori Wilayah
-                        </label>
-                        <select class="w-full p-2 border border-gray-300 rounded-lg" id="kategori-wilayah">
-                            @foreach($area as $area)
-                                <option value="{{$area->area}}">
-                                    {{$area->area}}
-                                </option>
-                            @endforeach
-                        </select>
-                    </div>
-                </div>
-            </aside>
+       </h2>
+       <div class="relative">
+        <label class="sr-only" for="kategori-wilayah">
+         Kategori Wilayah
+        </label>
+        <select class="w-full p-2 border border-gray-300 rounded-lg" id="kategori-wilayah">
+         <option value="">
+          Pilih Kategori Wilayah
+         </option>
+         <option value="Babadan">
+          Babadan
+         </option>
+         <option value="Badegan">
+          Badegan
+         </option>
+         <option value="Balong">
+          Balong
+         </option>
+         <option value="Bungkal">
+          Bungkal
+         </option>
+         <option value="Jambon">
+          Jambon
+         </option>
+         <option value="Jenangan">
+          Jenangan
+         </option>
+         <option value="Jetis">
+          Jetis
+         </option>
+         <option value="Kauman">
+          Kauman
+         </option>
+         <option value="Mlarak">
+          Mlarak
+         </option>
+         <option value="Ngebel">
+          Ngebel
+         </option>
+         <option value="Ngrayun">
+          Ngrayun
+         </option>
+         <option value="Ponorogo">
+          Ponorogo
+         </option>
+         <option value="Pudak">
+          Pudak
+         </option>
+         <option value="Pulung">
+          Pulung
+         </option>
+         <option value="Sambit">
+          Sambit
+         </option>
+         <option value="Sampung">
+          Sampung
+         </option>
+         <option value="Sawoo">
+          Sawoo
+         </option>
+         <option value="Siman">
+          Siman
+         </option>
+         <option value="Slahung">
+          Slahung
+         </option>
+         <option value="Sooko">
+          Sooko
+         </option>
+         <option value="Sukorejo">
+          Sukorejo
+         </option>
+        </select>
+       </div>
+      </div>
+     </aside>
             <!-- Product List -->
             <div class="w-full lg:w-3/4">
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">

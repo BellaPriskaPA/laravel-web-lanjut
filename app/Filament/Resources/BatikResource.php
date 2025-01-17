@@ -33,6 +33,7 @@ class BatikResource extends Resource
                         TextInput::make('business_name')->required()->label('Nama Bisnis'),
                         TextInput::make('address')->required()->label('Link Maps'),
                         RichEditor::make('description')->required()->label('Deskripsi'),
+                        TextInput::make('phone_number')->label('Nomor Telepon'),
                         TextInput::make('instagram')->label('Link Instagram'),
                         TextInput::make('facebook')->label('Link Facebook'),
                         TextInput::make('twitter')->label('Link Twitter'),
